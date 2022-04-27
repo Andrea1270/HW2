@@ -1,0 +1,195 @@
+
+#sidebar{
+  background-color: RGB(40, 40, 40);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height:2000px;
+  width:250px;
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.flex-item-P{
+  width:90%;
+  margin-top: 10px;
+}
+
+.flex-item-I{
+  text-decoration: none;
+  font-size: 35px;
+  color:lightgrey;
+  margin:10px;
+  margin-top:50px;
+}
+
+.flex-item-I:hover{
+  color: RGB(114, 41, 255);
+  font-size:40px;
+}
+
+#upperbar{
+  display:flex;
+  position: absolute;
+  justify-content: flex-end;
+  left: 250px;
+  width: 1250px;
+}
+
+#backG{
+ position: absolute;
+  width: 100%;
+  height: 2000px;
+}
+
+.flex-item-title{
+  position: absolute;
+  border: 10px solid RGB(95, 250, 148);
+  border-radius: 50px;
+  width: 550px;
+  right:330px;
+  height:60px;
+  background-color: RGB(95, 250, 148);
+  top: 50px;
+}
+
+h1{
+  text-align: center;
+  color: darkblue;
+  font-size: 50px;
+  margin-top: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.flex-item-dip{
+  position: absolute;
+  text-decoration: none;
+  color: darkblue ;
+  right:390px;
+  height:60px;
+  font-size: 30px;
+  top: 170px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.flex-item-dip:hover{
+  color: RGB(114, 41, 255);
+}
+
+#centralbar{
+  position: absolute;
+  justify-content: flex-end;
+  border: 5px solid RGB(95, 250, 148);
+  background-color: RGB(95, 250, 148);
+  right:20px;
+  top: 300px;
+  width: 1200px;
+  height: 180px;
+  border-radius: 150px;
+}
+
+.flex-item-roma3{
+  position: absolute;
+  width: 250px;
+  top:20px;
+  left: 40px;
+  border-radius: 20%;
+}
+
+.flex-item-info{
+  position: absolute;
+  width: 650px;
+  height: 140px;
+  left: 350px;
+  bottom: 35px;
+  font-size: 140%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.flex-item-infolink{
+  text-decoration: none;
+  color: darkblue;
+}
+
+.flex-item-infolink:hover{
+  color: RGB(114, 41, 255);
+}
+
+.flex-item-icon{
+  width: 4%;
+}
+
+#bottombar{
+  position: absolute;
+  left: 270px;
+  height: 1440px;
+  top:550px;
+  width:1200px;
+}
+
+.flex-item-machineL{
+  position: absolute;
+  width: 1150px;
+  height: 250px;
+  top: 20px;
+  left: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.titoli{
+  font-size:25px;
+  text-decoration: overline underline;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.text{
+  font-size: 20px;
+}
+
+.flex-item-bigdata{
+  position: absolute;
+  width: 1150px;
+  height: 250px;
+  top: 300px;
+  left: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.flex-item-webdata{
+  position: absolute;
+  width: 1150px;
+  height: 250px;
+  top: 580px;
+  left: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.flex-item-Fundings{
+  position: absolute;
+  top: 840px;
+  left: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.flex-item-ServiceActivities{
+  position: absolute;
+  width: 1150px;
+  top: 970px;
+  left: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.flex-item-Publications{
+  position: absolute;
+  top: 1100px;
+  left: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.flex-item-OtherActivities{
+  position: absolute;
+  top: 1250px;
+  left: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
